@@ -1,0 +1,7 @@
+SELECT
+    name, population
+From CITY
+Where population =
+    (SELECT MAX(population) From city)
+OR 
+    population = (SELECT MIN(population) from city)
