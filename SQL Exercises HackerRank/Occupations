@@ -13,3 +13,4 @@ Select
     MAX(CASE WHEN occupation ='Actor' Then Name END) as 'Actor'
 From tabela_provisoria
 Group by rn
+
